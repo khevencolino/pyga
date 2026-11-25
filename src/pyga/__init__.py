@@ -1,11 +1,11 @@
 """PyGA - um clone simples de Pong com modo contra a CPU e dois jogadores."""
 
-from .game import Game
+from .game import run
 
 
 def main() -> None:
     """Inicia a até o jogador fechar a janela."""
-    Game().run()
+    run()
 
 
-__all__ = ["Game", "main"]
+__all__ = [ "main"]
