@@ -4,7 +4,7 @@ from .game import Game
 
 
 def main() -> None:
-    """Inicia a partida até o jogador fechar a janela."""
+    """Inicia a até o jogador fechar a janela."""
     Game().run()
 
 
